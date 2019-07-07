@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Impalpable`,
+    title: `ImpalpableJs`,
     author: `Sergio Mendoza`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://epic-stonebraker-46c158.netlify.com/`,
@@ -9,6 +9,7 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
